@@ -13,3 +13,22 @@ from tkinter import*
 import time
 import datetime
 import pygame
+#from playsound import playsound as p : https://realpython.com/playing-and-recording-sound-python/
+
+pygame.init()
+root =Tk()
+root.title("Music Box")
+root.geometry('1352x700+0+0')
+root.configure(background ='white')
+
+ABC=Frame(root, bg="powder blue", bd=20, relief= RIDGE)
+ABC.grid()
+
+ABC1=Frame(ABC, bg="powder blue", bd=20, relief= RIDGE)
+ABC1.grid()
+ABC2=Frame(ABC, bg="powder blue", relief= RIDGE)
+ABC2.grid()
+ABC3=Frame(ABC, bg="powder blue", relief= RIDGE)
+ABC3.grid()
+
+
