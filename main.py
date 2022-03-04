@@ -32,3 +32,11 @@ ABC3=Frame(ABC, bg="powder blue", relief= RIDGE)
 ABC3.grid()
 
 
+str1 = StringVar()
+str1.set("Last key : ")
+Date1=StringVar()
+Time1=StringVar()
+
+Date1.set(time.strftime("%d/%m/%Y"))
+Time1.set(time.strftime("%H:%M:%S"))
+
