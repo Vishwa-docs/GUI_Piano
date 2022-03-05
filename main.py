@@ -31,7 +31,6 @@ ABC2.grid()
 ABC3=Frame(ABC, bg="powder blue", relief= RIDGE)
 ABC3.grid()
 
-
 str1 = StringVar()
 str1.set("Last key : ")
 Date1=StringVar()
@@ -40,3 +39,35 @@ Time1=StringVar()
 Date1.set(time.strftime("%d/%m/%Y"))
 Time1.set(time.strftime("%H:%M:%S"))
 
+
+#Sharp FUNCTIONS (Try playsound) (Check importing from online source)
+def value_Cs():
+    str1.set("C#")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\C_s.wav") #Check Pathways
+    sound.play()
+        
+def value_Ds():
+    str1.set("D#")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\D_s.wav") #Check Pathways
+    sound.play()
+def value_Fs():
+    str1.set("F#")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\F_s.wav") #Check Pathways
+    sound.play()    
+def value_Gs():
+    str1.set("G#")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\G_s.wav") #Check Pathways
+    sound.play()
+def value_Bb():
+    str1.set("Bb")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\Bb.wav") #Check Pathways
+    sound.play()    
+def value_Cs1():
+    str1.set("Cs1")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\C_s1.wav") #Check Pathways
+    sound.play()    
+def value_Ds1():
+    str1.set("Ds1")
+    sound = pygame.mixer.Sound ("C:\\Users\\Student\\Desktop\\Comp Project V\\Piano notes\\D_s1.wav") #Check Pathways
+    sound.play()
+    
